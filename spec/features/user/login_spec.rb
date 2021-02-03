@@ -18,6 +18,9 @@ RSpec.describe 'User login' do
 
             expect(current_path).to eq(root_path)
             expect(page).to have_content("Welcome, #{user.email}")
+            expect(page).to have_link("Log out")
+            expect(page).to_not have_link("Register as a User")
+            expect(page).to_not have_link("I have an account")
         end
     end
 

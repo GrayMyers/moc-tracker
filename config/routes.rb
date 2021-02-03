@@ -1,8 +1,12 @@
 Rails.application.routes.draw do
   root 'welcome#index'
-  
+
   resources :users, only: [:new, :create]
 
-  get '/login', to: 'users#login_form'
-  post '/login', to: 'users#login'
+  get '/login', to: 'sessions#new'
+  post '/login', to: 'sessions#create'
+
+  get '/logout', to: 'sessions#destroy'
+
+  post '/search_senate_members', to: 'propublica#search'
 end

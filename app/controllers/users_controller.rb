@@ -11,21 +11,6 @@ class UsersController < ApplicationController
         redirect_to root_path
     end
 
-    def login_form
-    end
-
-    def login
-        user = User.find_by(email: params[:email].downcase)
-        if user && user.authenticate(params[:password])
-            # TODO Tim is going to add code right here
-            flash[:success] = "Welcome, #{user.email}"
-            redirect_to root_path
-        else
-            flash[:error] = 'Your credentials are bad, and you should feel bad'
-            render :login_form
-        end
-    end
-
     private
 
     def user_params
