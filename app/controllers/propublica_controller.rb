@@ -12,7 +12,7 @@ class PropublicaController < ApplicationController
 
   def get_members
     conn = Faraday.new(url: "https://api.propublica.org") do |faraday|
-      faraday.headers["X-API-KEY"] = Figaro.env.propublica_api_key
+      faraday.headers["X-API-KEY"] = ENV['propublica_api_key']
     end
     response = conn.get("/congress/v1/116/senate/members.json")
 
