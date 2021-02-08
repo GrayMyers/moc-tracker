@@ -23,31 +23,31 @@ http_interactions:
       Content-Type:
       - application/json; charset=utf-8
       Content-Length:
-      - '215495'
+      - '215214'
       Connection:
       - keep-alive
       Date:
-      - Fri, 05 Feb 2021 17:46:42 GMT
+      - Mon, 08 Feb 2021 18:54:18 GMT
       X-Amzn-Requestid:
-      - 80bde42c-3a2e-4641-841e-2a0965e73130
+      - 7b8488bf-93be-4338-b615-6e75dc9784bc
       Access-Control-Allow-Origin:
       - "*"
       Access-Control-Allow-Headers:
       - Content-Type,X-Amz-Date,Authorization,X-Api-Key,X-Amz-Security-Token
       X-Amz-Apigw-Id:
-      - aSGkcEKXIAMF9JQ=
+      - acJSKHDToAMF3ig=
       Access-Control-Allow-Methods:
       - GET,OPTIONS
       X-Amzn-Trace-Id:
-      - Root=1-601d8482-1bf6446e1618736a411f2a23
+      - Root=1-602188da-125b23931914da8f359ddac0;Sampled=0
       X-Cache:
       - Miss from cloudfront
       Via:
-      - 1.1 5950a1c2bfcf1f3e07bedbb2efad39f3.cloudfront.net (CloudFront)
+      - 1.1 be7f6ce4397843276657a8babac08b6f.cloudfront.net (CloudFront)
       X-Amz-Cf-Pop:
       - DEN52-C1
       X-Amz-Cf-Id:
-      - kdURF2kjOx9B7x7qTwGtnPVbqiBJLLBRII7qcVPvUMcMAFVHbXQL8w==
+      - hJAmuTrSdmuJKuyjwgbrbR8ZJry1RZ-zR0PkoN0VTGcowenqTxK-TA==
     body:
       encoding: UTF-8
       string: "{\n   \"status\":\"OK\",\n   \"copyright\":\" Copyright (c) 2021 Pro
@@ -635,7 +635,7 @@ http_interactions:
         \"63928\",\n                 \"votesmart_id\": \"135651\",\n                 \"icpsr_id\":
         \"21301\",\n                 \"crp_id\": \"N00033363\",\n                 \"google_entity_id\":
         \"/m/02g3ds\",\n                 \"fec_candidate_id\": \"H2AR04083\",\n                 \"url\":
-        \"https://www.cotton.senate.gov\",\n                 \"rss_url\": \"https://www.cotton.senate.gov/rss/\",\n
+        \"https://www.cotton.senate.gov\",\n                 \"rss_url\": null,\n
         \                \"contact_form\": \"http://www.cotton.senate.gov/?p=contact\",\n
         \                \"in_office\": false,\n                 \"cook_pvi\": null,\n
         \                \"dw_nominate\": 0.573,\n                 \"ideal_point\":
@@ -1103,7 +1103,7 @@ http_interactions:
         \"1030686\",\n                 \"votesmart_id\": \"74517\",\n                 \"icpsr_id\":
         \"20930\",\n                 \"crp_id\": \"N00029835\",\n                 \"google_entity_id\":
         \"/m/02qkv0r\",\n                 \"fec_candidate_id\": \"H8NM01224\",\n                 \"url\":
-        \"https://www.heinrich.senate.gov\",\n                 \"rss_url\": \"https://www.heinrich.senate.gov/rss/feeds/?type=all\",\n
+        \"https://www.heinrich.senate.gov\",\n                 \"rss_url\": null,\n
         \                \"contact_form\": \"http://www.heinrich.senate.gov/contact\",\n
         \                \"in_office\": false,\n                 \"cook_pvi\": null,\n
         \                \"dw_nominate\": -0.328,\n                 \"ideal_point\":
@@ -1567,8 +1567,7 @@ http_interactions:
         \"26900\",\n                 \"icpsr_id\": \"14435\",\n                 \"crp_id\":
         \"N00000270\",\n                 \"google_entity_id\": \"/m/028vr4\",\n                 \"fec_candidate_id\":
         \"H6MA07101\",\n                 \"url\": \"https://www.markey.senate.gov\",\n
-        \                \"rss_url\": \"https://www.markey.senate.gov/rss/feeds/\",\n
-        \                \"contact_form\": \"https://www.markey.senate.gov/contact\",\n
+        \                \"rss_url\": null,\n                 \"contact_form\": \"https://www.markey.senate.gov/contact\",\n
         \                \"in_office\": false,\n                 \"cook_pvi\": null,\n
         \                \"dw_nominate\": -0.512,\n                 \"ideal_point\":
         null,\n                 \"seniority\": \"7\",\n                 \"next_election\":
@@ -1748,7 +1747,7 @@ http_interactions:
         \"1021270\",\n                 \"votesmart_id\": \"17189\",\n                 \"icpsr_id\":
         \"20707\",\n                 \"crp_id\": \"N00027566\",\n                 \"google_entity_id\":
         \"/m/0cy_dh\",\n                 \"fec_candidate_id\": \"H6CT05124\",\n                 \"url\":
-        \"https://www.murphy.senate.gov\",\n                 \"rss_url\": \"https://www.murphy.senate.gov/rss/feeds/?press\",\n
+        \"https://www.murphy.senate.gov\",\n                 \"rss_url\": null,\n
         \                \"contact_form\": \"http://www.murphy.senate.gov/contact\",\n
         \                \"in_office\": false,\n                 \"cook_pvi\": null,\n
         \                \"dw_nominate\": -0.269,\n                 \"ideal_point\":
@@ -1903,17 +1902,17 @@ http_interactions:
         \"24239\",\n                 \"votesmart_id\": \"27060\",\n                 \"icpsr_id\":
         \"29142\",\n                 \"crp_id\": \"N00000362\",\n                 \"google_entity_id\":
         \"/m/0202mc\",\n                 \"fec_candidate_id\": \"S6RI00163\",\n                 \"url\":
-        \"https://www.reed.senate.gov\",\n                 \"rss_url\": \"https://www.reed.senate.gov/rss/feeds/?type=press\",\n
-        \                \"contact_form\": \"https://www.reed.senate.gov/contact/\",\n
-        \                \"in_office\": false,\n                 \"cook_pvi\": null,\n
-        \                \"dw_nominate\": -0.367,\n                 \"ideal_point\":
-        null,\n                 \"seniority\": \"23\",\n                 \"next_election\":
-        \"2020\",\n                 \"total_votes\": 717,\n                 \"missed_votes\":
-        3,\n                 \"total_present\": 1,\n                 \"last_updated\":
-        \"2020-12-30 19:01:18 -0500\",\n                 \"ocd_id\": \"ocd-division/country:us/state:ri\",\n
-        \                \"office\": \"728 Hart Senate Office Building\",\n                 \"phone\":
-        \"202-224-4642\",\n                 \"fax\": \"202-224-4680\",\n                 \"state\":
-        \"RI\",\n                 \"senate_class\": \"2\",\n                 \"state_rank\":
+        \"https://www.reed.senate.gov\",\n                 \"rss_url\": null,\n                 \"contact_form\":
+        \"https://www.reed.senate.gov/contact/\",\n                 \"in_office\":
+        false,\n                 \"cook_pvi\": null,\n                 \"dw_nominate\":
+        -0.367,\n                 \"ideal_point\": null,\n                 \"seniority\":
+        \"23\",\n                 \"next_election\": \"2020\",\n                 \"total_votes\":
+        717,\n                 \"missed_votes\": 3,\n                 \"total_present\":
+        1,\n                 \"last_updated\": \"2020-12-30 19:01:18 -0500\",\n                 \"ocd_id\":
+        \"ocd-division/country:us/state:ri\",\n                 \"office\": \"728
+        Hart Senate Office Building\",\n                 \"phone\": \"202-224-4642\",\n
+        \                \"fax\": \"202-224-4680\",\n                 \"state\": \"RI\",\n
+        \                \"senate_class\": \"2\",\n                 \"state_rank\":
         \"senior\",\n                 \"lis_id\": \"S259\"\n                 ,\"missed_votes_pct\":
         0.42,\n                 \"votes_with_party_pct\": 94.93,\n                 \"votes_against_party_pct\":
         5.07\n               },\n                           {\n                 \"id\":
@@ -2082,7 +2081,7 @@ http_interactions:
         \"994\",\n                 \"votesmart_id\": \"27110\",\n                 \"icpsr_id\":
         \"29147\",\n                 \"crp_id\": \"N00000528\",\n                 \"google_entity_id\":
         \"/m/01_gbv\",\n                 \"fec_candidate_id\": \"H8VT01016\",\n                 \"url\":
-        \"https://www.sanders.senate.gov\",\n                 \"rss_url\": \"https://www.sanders.senate.gov/rss/feeds/\",\n
+        \"https://www.sanders.senate.gov\",\n                 \"rss_url\": null,\n
         \                \"contact_form\": \"http://www.sanders.senate.gov/contact/\",\n
         \                \"in_office\": false,\n                 \"cook_pvi\": null,\n
         \                \"dw_nominate\": -0.529,\n                 \"ideal_point\":
@@ -2468,7 +2467,7 @@ http_interactions:
         \"7958\",\n                 \"votesmart_id\": \"24096\",\n                 \"icpsr_id\":
         \"29935\",\n                 \"crp_id\": \"N00001489\",\n                 \"google_entity_id\":
         \"/m/02_kk7\",\n                 \"fec_candidate_id\": \"S4PA00121\",\n                 \"url\":
-        \"https://www.toomey.senate.gov\",\n                 \"rss_url\": \"https://www.toomey.senate.gov/rss/\",\n
+        \"https://www.toomey.senate.gov\",\n                 \"rss_url\": null,\n
         \                \"contact_form\": \"https://www.toomey.senate.gov/?p=contact\",\n
         \                \"in_office\": false,\n                 \"cook_pvi\": null,\n
         \                \"dw_nominate\": 0.647,\n                 \"ideal_point\":
@@ -2689,5 +2688,5 @@ http_interactions:
         \"senior\",\n                 \"lis_id\": \"S391\"\n                 ,\"missed_votes_pct\":
         1.81,\n                 \"votes_with_party_pct\": 94.99,\n                 \"votes_against_party_pct\":
         5.01\n               }\n             ]\n      }\n   ]\n}\n"
-  recorded_at: Fri, 05 Feb 2021 17:46:42 GMT
+  recorded_at: Mon, 08 Feb 2021 18:54:18 GMT
 recorded_with: VCR 6.0.0

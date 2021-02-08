@@ -77,6 +77,15 @@ VCR.configure do |config|
   config.hook_into :webmock
   config.filter_sensitive_data('DONT_EXPOSE_MY_DATA') { ENV['propublica_api_key'] }
   config.configure_rspec_metadata!
-  config.default_cassette_options = { re_record_interval: 1.week }
+  config.default_cassette_options = { re_record_interval: 1.day }
 end
 
+class Nothing
+  # fake class for our helper method below so we can actually
+  # test for nil values if we want to
+end
+def check_structure_data(element, key, type, value=Nothing)
+  expect(element).to have_key key
+  expect(element[key]).to be_a(type)
+  expect(element[key]).to eq(value) unless value == Nothing
+end

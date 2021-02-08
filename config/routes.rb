@@ -8,5 +8,5 @@ Rails.application.routes.draw do
 
   get '/logout', to: 'sessions#destroy'
 
-  post '/search_senate_members', to: 'propublica#search'
+  post '/search_senate_members', to: 'govt#search'
 end
